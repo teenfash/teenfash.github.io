@@ -216,7 +216,7 @@ body {
     padding-bottom: 1rem;
 }
 
-@media (orientation: portrait){
+@media (orientation: portrait) and (max-aspect-ratio:1/1) {
     .stage {
         min-height: 80vh;
         display: flex;
